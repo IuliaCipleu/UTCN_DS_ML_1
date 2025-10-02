@@ -23,3 +23,7 @@ If you encounter any issues or bugs during implementation, feel free to contact 
 ---
 
 Thank you for your participation, and happy coding!
+
+
+`git pull upstream main`
+`git push origin main`

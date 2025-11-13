@@ -1,4 +1,4 @@
-name: ml
+name: ml2
 channels:
   - conda-forge
   - defaults
@@ -20,13 +20,11 @@ dependencies:
   - jupyter_core
   - krb5
   - libcxx
-  - libedit
   - libexpat
   - libffi
   - libmpdec
   - libsodium
   - matplotlib-inline
-  - ncurses
   - nest-asyncio
   - openssl
   - packaging
@@ -43,7 +41,7 @@ dependencies:
   - python
   - python-dateutil
   - pyzmq
-  - readline
+  - scikit-learn
   - setuptools
   - six
   - sqlite
@@ -71,7 +69,6 @@ dependencies:
     - numpy==2.1.2
     - pillow
     - pyparsing
-    - scikit-learn==1.5.2
     - scipy
     - threadpoolctl
     - widgetsnbextension
